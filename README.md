@@ -67,7 +67,7 @@ No cliente (`cmd/client/main.go`):
 
 O servidor cria a tabela `prices` ao iniciar e limpa a tabela a cada start. O arquivo do banco e `app.db` na raiz do projeto.
 
-## Observaçoes
+## Observações
 
 - A resposta do endpoint retorna apenas o campo `bid`.
 - Erros de chamada externa ou escrita no banco retornam `500`.
